@@ -8,7 +8,7 @@
 		require_once($autoloadPathForPackagist);
 	}
 
-	use function GulyaBulatova\guessnumber\Controller\startGame;
+	use function Durnaev\guessnumber\Controller\startGame;
 
 	startGame();
 ?>
