@@ -1,0 +1,21 @@
+{
+    "name": "labs/task02_2",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Durnaev Nicolay",
+            "email": "ljnf213@mail.ru"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
